@@ -1,4 +1,4 @@
-class zenith < Formula
+class Zenith < Formula
     desc " sort of like top or htop but with histograms"
     homepage "https://github.com/bvaisvil/zenith"
     version "0.5.1"
