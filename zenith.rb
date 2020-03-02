@@ -2,7 +2,7 @@ class Zenith < Formula
     desc " sort of like top or htop but with histograms"
     homepage "https://github.com/bvaisvil/zenith"
     version "0.5.1"
-    url "-https://github.com/bvaisvil/zenith/releases/download/0.7.4/zenith.MacOS.tar.gz"
+    url "https://github.com/bvaisvil/zenith/releases/download/0.7.4/zenith.MacOS.tar.gz"
     sha256 "0951e898c6817421ecf480199930f6dbd397ff3856d9f4d2c9c8854bcfd01d07"
   
     if OS.linux?
