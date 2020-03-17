@@ -7,7 +7,7 @@ class Zenith < Formula
   
     if OS.linux?
       url "https://github.com/bvaisvil/zenith/releases/download/0.7.5/zenith.linux.tgz"
-      sha256 "d164e17a7359cc0aefe3af1ec0095b024fc6b24946da6ef0f87d1580b31002d8"
+      sha256 "94f40f0e8869c6f43fb7ab2b0b6e02816b98d32d48cd1bfb1378902b66afb324"
     end
   
     def install
