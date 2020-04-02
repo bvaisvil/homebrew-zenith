@@ -1,13 +1,13 @@
 class Zenith < Formula
     desc "sort of like top or htop but with histograms"
     homepage "https://github.com/bvaisvil/zenith"
-    version "0.7.7"
-    url "https://github.com/bvaisvil/zenith/releases/download/0.7.7/zenith.MacOS.tgz"
-    sha256 "142905f08d8bb625fa2a3fbd1c1fb2800ed4454e2a496a666c89cc2f3bcf6db4"
+    version "0.8.0"
+    url "https://github.com/bvaisvil/zenith/releases/download/0.8.0/zenith.MacOS.tgz"
+    sha256 "e21edfb055c6823c731229bc4b04886cc4e74109e2fcbb6611cbb6cd8a47efcc"
   
     if OS.linux?
-      url "https://github.com/bvaisvil/zenith/releases/download/0.7.7/zenith.linux.tgz"
-      sha256 "380bf129ef70c1789341a8db20db11cb087368e58cf9eadf800cb48ade23b1ad"
+      url "https://github.com/bvaisvil/zenith/releases/download/0.8.0/zenith.linux.tgz"
+      sha256 "f02e3ba2d71b1351a15214ec45b7c4249775ee44e9b39cb7e3b04ae59afcdb6b"
     end
   
     def install
